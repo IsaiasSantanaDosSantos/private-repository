@@ -6,7 +6,7 @@ import { initReactI18next, I18nextProvider  } from 'react-i18next';
 import enTranslations from '../translateFile/en/translate.json';
 import ptTranslations from '../translateFile/pt/translate.json';
 import { MainContainer } from './styled';
-import  Windows  from '../src/components/Windows/index.jsx'
+import Home from '../src/components/Home/index'
 
 function Main() {
 
@@ -29,7 +29,7 @@ function Main() {
     <I18nextProvider i18n={i18n}>
     <React.StrictMode>
       <MainContainer>
-        <Windows />
+        <Home />
       </MainContainer>
     </React.StrictMode>
     </I18nextProvider>
